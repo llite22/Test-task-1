@@ -4,3 +4,8 @@ declare module "*.svg?react" {
     const ReactComponent: SVGComponent;
     export default ReactComponent;
 }
+
+declare module '*.module.scss' {
+    const classes: { [key: string]: string };
+    export default classes;
+  }
